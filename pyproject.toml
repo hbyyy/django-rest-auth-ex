@@ -8,6 +8,8 @@ authors = ["hbyyy <qjaduddl94@gmail.com>"]
 python = "^3.7"
 django = "^3.0.8"
 djangorestframework = "^3.11.0"
+djangorestframework-jwt = "^1.11.0"
+django-rest-auth = {extras = ["with_social"], version = "^0.9.5"}
 
 [tool.poetry.dev-dependencies]
 
